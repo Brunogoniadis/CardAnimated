@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    background: #f1f1f1;
+}
+
+.container{
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.card{
+    width: 350px;
+    height: 600px;
+    position: relative;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 15px 0 rgb(163,163,163);
+}
+.card-itens{
+    width: 100%;
+    height: 100%;
+}
+.card-top{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(199, 131, 82);
+    border-radius: 30px;
+    color: #fff;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons span{
+    cursor: pointer;
+    padding: 1em;
+    font-size: 30px;
+}
+.card-top h3{
+    font-size: 20px;
+    padding-left: 1.5em;
+}
+
+.card-top h1{
+    font-size: 30px;
+    padding-left: 1em;
+    font-weight: 300;
+}
+.card-bottom{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.card-bottom h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card-bottom p{
+    text-align: left;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    border: 2px solid chocolate;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: chocolate;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.btn:hover{
+    border: 2px solid chocolate;
+    background: chocolate;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+#product1,
+#product2{
+    width: 100px;
+    position: absolute;
+    left: 125px;
+    bottom: 38%;
+    transition: 1s;
+}
+#product1{
+    left: 125px;
+}
+#product2{
+    left: -650px;
+}
